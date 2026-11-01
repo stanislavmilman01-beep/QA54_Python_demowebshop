@@ -6,6 +6,7 @@ import time
 URL = "https://demowebshop.tricentis.com/"
 
 email = f"qa_{int(time.time())}@example.com"
+#time абсолютно гениальная штука <3
 password = "Test123!"
 
 @pytest.fixture
