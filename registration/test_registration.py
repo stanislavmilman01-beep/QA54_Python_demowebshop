@@ -18,7 +18,7 @@ def driver():
     driver.quit()
 
 
-def test_registration_story(driver):
+def test_successful_registration(driver):
 
     driver.find_element(By.CSS_SELECTOR,"a.ico-register").click()
 
